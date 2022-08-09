@@ -1,0 +1,51 @@
+*{
+    border: solid red;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 15px;
+
+}
+
+.idk{
+
+}
+
+.pitch{
+
+}
+
+.quote{
+
+}
+
+.footer{
+    background-color: navy;
+    color: white;   
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
