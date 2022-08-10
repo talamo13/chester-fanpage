@@ -1,6 +1,4 @@
-*{
-    border: solid red;
-}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -11,16 +9,22 @@ a{
     text-decoration: none;
 }
 
-.header{
-    background-color: darkgray;
+.header-container{
+    background-color: darkblue;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 175px;
 }
 
-.right{
+.header-logo{
+    display: flex;
+    height: 175px;
+    width: 150px;
+}
+
+.header-links{
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -28,16 +32,68 @@ a{
 
 }
 
-.idk{
-
+.container-one{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
 }
 
-.pitch{
-
+.idk-block-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.quote{
+.button{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px 35px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.button:hover{
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.idk-pointing{
+    display: flex;
+    height: 200px;
+}
+
+.container-two{
+    display: flex;
+    padding: 20px;
+}
+
+.container-three{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+}
+.quote-container{
+    display: flex;
+    height: 150px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-author{
+    display: flex;
+    align-items: flex-end;
+}
+
+.quote-baby-chester{
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
 }
 
 .footer{
@@ -45,7 +101,7 @@ a{
     color: white;   
     font-size: 15px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     height: 75px;
 }
