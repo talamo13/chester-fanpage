@@ -1,107 +1,172 @@
-
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+    text-align: center;
+}
 a{
-    color: inherit;
     text-decoration: none;
+    color: white;
 }
 
-.header-container{
-    background-color: darkblue;
+button{
+    background-color: #3882F6;
     color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 12px 28px;
+}
+
+button:hover{
+    background-color: white;
+    color: #3882F6;
+}
+
+/*Header Styling*/
+.header{
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 175px;
+    padding: 10px;
 }
 
-.header-logo{
+.logo{
     display: flex;
-    height: 175px;
-    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
 }
 
 .header-links{
     display: flex;
-    justify-content: space-between;
-    width: 200px;
-    margin-right: 15px;
-
-}
-
-.container-one{
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    height: 200px;
-    padding: 20px;
+    font-size: 20px;
 }
 
-.idk-block-1{
+.link-one{
+    margin-right: 15px;
+}
+
+.link-two{
+    margin-right: 15px;
+}
+
+.link-three{
+    margin-right: 15px;
+}
+/**/
+
+/*Container One Styling*/
+.container-one{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    width: auto;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 125px;
+
+}
+.left-side{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 400px;
+    margin-right: 50px;
 }
 
-.button{
-    background-color: darkslategrey;
-    color: whitesmoke;
-    font-size: 30px;
-    padding: 20px 35px;
-    border-radius: 24px;
+.right-side{
+    
+}
+
+.chester-pointing{
     display: flex;
-    justify-content: flex-end;
+    height: 250px;
+    width: 350px;
 }
+/**/
 
-.button:hover{
-    background-color: whitesmoke;
-    color: darkblue;
-}
-
-.idk-pointing{
-    display: flex;
-    height: 200px;
-}
-
+/*Container Two Styling*/
 .container-two{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-two-text{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.block-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.photo{
+    margin-right:25px;
+    border: solid #3882F6;
+    width: 115px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+/**/
+
+/*Container Three Styling*/
+.container-three{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
 }
 
-.container-three{
-    background-color: darkgrey;
-    display: flex;
-    justify-content: space-around;
-}
-.quote-container{
-    display: flex;
-    height: 150px;
-    padding: 15px;
-    flex-direction: column;
-    align-items: center;
+.quote-text{
+    font-style: italic;
 }
 
 .quote-author{
     display: flex;
-    align-items: flex-end;
+    font-weight: bold;
+    color: black;
+    justify-content: flex-end;
 }
 
-.quote-baby-chester{
-    display: flex;
-    height: 150px;
-    justify-content: space-between;
-}
+/**/
 
+/*Footer Styling*/
 .footer{
-    background-color: navy;
-    color: white;   
-    font-size: 15px;
+    background-color: #1F2937;
+    color: white;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
-    height: 75px;
+
 }
